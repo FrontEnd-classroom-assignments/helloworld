@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+# Hello World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Create a component
+You will create a simple React component that displays a greeting message. This assignment will help you practice how to create components, use JSX, and pass props.
 
-Currently, two official plugins are available:
+Inside your React project, create a new file named `Greeting.js`. In this file, define a new React component called `Greeting`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+This component should return the following HTML:
 ```
+<h3>Hello World!</h3>
+```
+### 2. Use the Greeting Component in App.tsx
+Open your App.tsx file and import the `Greeting` component.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Use the `Greeting` component inside the `return` statement of the `App` component so that Hello World! message is displayed on the webpage.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 3. Use props
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Pass Props to the `Greeting` Component and update the `Greeting` component to accept a prop called name.
+
+Instead of displaying "Hello World!", use the prop to display: Hello {name}!
+
+For example, if you pass Alex, the componen display Hello Alex!.
+
+
+**NOTE!** This assignment includes a GitHub workflow that automatically checks your code using a linter. To receive full points, the workflow must pass without errors.
+Before submitting your assignment, you can run the linter locally on your computer using the following command:
+```
+npm run lint
 ```
