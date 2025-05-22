@@ -23,8 +23,9 @@ Instead of displaying "Hello World!", use the prop to display: Hello {name}!
 For example, if you pass Alex, the componen display Hello Alex!.
 
 
-**NOTE!** This assignment includes a GitHub workflow that automatically checks your code using a linter. To receive full points, the workflow must pass without errors.
-Before submitting your assignment, you can run the linter locally on your computer using the following command:
-```
-npm run lint
-```
+> [!NOTE]
+> This assignment includes a GitHub workflow that automatically checks your code using a linter. To receive full points, the workflow must pass without errors.
+> Before submitting your assignment, you can run the linter locally on your computer using the following command:
+> ```
+> npm run lint
+> ```
