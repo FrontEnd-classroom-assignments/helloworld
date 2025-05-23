@@ -3,7 +3,7 @@
 ### 1. Create a component
 You will create a simple React component that displays a greeting message. This assignment will help you practice how to create components, use JSX, and pass props.
 
-Inside your React project, create a new file named `Greeting.js`. In this file, define a new React component called `Greeting`.
+Inside your React project, create a new file named `Greeting.tsx`. In this file, define a new React component called `Greeting`.
 
 This component should return the following HTML:
 ```
