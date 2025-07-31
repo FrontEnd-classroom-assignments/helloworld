@@ -1,27 +1,26 @@
-# Hei maailma
+# Hello World
 
 ### 1. Luo komponentti
-Luot yksinkertaisen React-komponentin, joka näyttää tervehdysviestin. Tämä tehtävä auttaa sinua harjoittelemaan komponenttien luomista, JSX:n käyttöä ja propsejen välittämistä.
+Luo yksinkertainen React-komponentti, joka näyttää tervehdysviestin. Tämä tehtävä auttaa sinua harjoittelemaan komponenttien luomista, JSX:n käyttöä ja propsejen välittämistä.
 
 Luo React-projektiisi uusi tiedosto nimeltä `Greeting.tsx`. Määritä tähän tiedostoon uusi React-komponentti nimeltä `Greeting`.
 
 Tämän komponentin tulee palauttaa seuraava HTML:
 ```
-<h3>Hei maailma!</h3>
+<h3>Hello World!</h3>
 ```
 ### 2. Käytä Greeting-komponenttia App.tsx:ssä
-Avaa App.tsx-tiedosto ja tuo `Greeting`-komponentti.
+Avaa `App.tsx`-tiedosto ja tuo `Greeting`-komponentti `App` komponenttin.
 
-Käytä `Greeting`-komponenttia `App`-komponentin `return`-lauseessa, jotta Hei maailma! -viesti näkyy verkkosivulla.
+Käytä `Greeting`-komponenttia `App`-komponentin `return`-lauseessa, jotta Hello World! -viesti näkyy verkkosivulla.
 
-### 3. Käytä propseja
+### 3. Props
 
-Välitä propsit `Greeting`-komponentille ja päivitä `Greeting`-komponentti ottamaan vastaan prop
+Välitä props:it `Greeting`-komponentille ja päivitä `Greeting`-komponentti ottamaan vastaan props:it.
 
+Näytä "Hello {name}!" sen sijaan, että näytetään "Hello world!".
 
-Näytä propin sijaan teksti "Hei {name}!" sen sijaan, että näytetään "Hei maailma!".
-
-Esimerkiksi, jos välität nimeksi Alex, komponentti näyttää Hei Alex!.
+Esimerkiksi, jos välität nimeksi Alex, komponentti näyttää "Hello Alex!".
 
 > [!IMPORTANT]
 > Kaikki Github Classroom -tehtävät tällä kurssilla sisältävät GitHub-workflown, joka tarkistaa koodisi automaattisesti linterin avulla. Täyden pistemäärän saadaksesi workflow’n tulee mennä läpi ilman virheitä.
