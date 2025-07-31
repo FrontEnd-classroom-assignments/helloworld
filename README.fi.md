@@ -1,7 +1,7 @@
 # Hello World
 
 ### 1. Luo komponentti
-Luo yksinkertainen React-komponentti, joka näyttää tervehdysviestin. Tämä tehtävä auttaa sinua harjoittelemaan komponenttien luomista, JSX:n käyttöä ja propsejen välittämistä.
+Luo yksinkertainen React-komponentti, joka näyttää tervehdysviestin. Tämä tehtävä auttaa sinua harjoittelemaan komponenttien luomista, JSX:n käyttöä ja props:ien välittämistä.
 
 Luo React-projektiisi uusi tiedosto nimeltä `Greeting.tsx`. Määritä tähän tiedostoon uusi React-komponentti nimeltä `Greeting`.
 
@@ -16,7 +16,7 @@ Käytä `Greeting`-komponenttia `App`-komponentin `return`-lauseessa, jotta Hell
 
 ### 3. Props
 
-Välitä props:it `Greeting`-komponentille ja päivitä `Greeting`-komponentti ottamaan vastaan props:it.
+Välitä nimi props:in (`name`) avulla `App` komponentista `Greeting`-komponentille. Päivitä `Greeting`-komponentti ottamaan vastaan props:it.
 
 Näytä "Hello {name}!" sen sijaan, että näytetään "Hello world!".
 
