@@ -17,3 +17,15 @@ Käytä `Greeting`-komponenttia `App`-komponentin `return`-lauseessa, jotta Hei 
 ### 3. Käytä propseja
 
 Välitä propsit `Greeting`-komponentille ja päivitä `Greeting`-komponentti ottamaan vastaan prop
+
+
+Näytä propin sijaan teksti "Hei {name}!" sen sijaan, että näytetään "Hei maailma!".
+
+Esimerkiksi, jos välität nimeksi Alex, komponentti näyttää Hei Alex!.
+
+> [!IMPORTANT]
+> Kaikki Github Classroom -tehtävät tällä kurssilla sisältävät GitHub-workflown, joka tarkistaa koodisi automaattisesti linterin avulla. Täyden pistemäärän saadaksesi workflow’n tulee mennä läpi ilman virheitä.
+> Ennen kuin palautat tehtävän, voit ajaa linterin paikallisesti tietokoneellasi seuraavalla komennolla:
+> ```
+> npm run lint
+> ```
