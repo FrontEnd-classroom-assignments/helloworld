@@ -18,7 +18,7 @@ Use the `Greeting` component inside the `return` statement of the `App` componen
 
 ### 3. Use props
 
-Pass Props to the `Greeting` Component and update the `Greeting` component to accept a prop called name.
+Pass Props to the `Greeting` Component and update the `Greeting` component to accept a prop called `name` (string).
 
 Instead of displaying "Hello World!", use the prop to display: Hello {name}!
 
