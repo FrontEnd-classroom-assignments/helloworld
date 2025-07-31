@@ -1,3 +1,5 @@
+[Suomenkielinen tehtävänanto (README.fi.md)](README.fi.md)
+
 # Hello World
 
 ### 1. Create a component
