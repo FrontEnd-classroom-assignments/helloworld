@@ -1,6 +1,6 @@
 [Suomenkielinen tehtävänanto (README.fi.md)](README.fi.md)
 
-# Hello World
+# Hello World (1 point)
 
 ### 1. Create a component
 You will create a simple React component that displays a greeting message. This assignment will help you practice how to create components, use JSX, and pass props.
