@@ -9,12 +9,12 @@ Tämän komponentin tulee palauttaa seuraava HTML:
 ```
 <h3>Hello World!</h3>
 ```
-### 2. Käytä Greeting-komponenttia App.tsx:ssä
+#### Käytä Greeting-komponenttia App.tsx:ssä
 Avaa `App.tsx`-tiedosto ja tuo `Greeting`-komponentti `App` komponenttin.
 
 Käytä `Greeting`-komponenttia `App`-komponentin `return`-lauseessa, jotta Hello World! -viesti näkyy verkkosivulla.
 
-### 3. Props
+### 2. Props
 
 Välitä nimi props:in (`name`) avulla `App` komponentista `Greeting`-komponentille. Päivitä `Greeting`-komponentti ottamaan vastaan props:it.
 
