@@ -11,12 +11,12 @@ This component should return the following HTML:
 ```
 <h3>Hello World!</h3>
 ```
-### 2. Use the Greeting Component in App.tsx
+#### Use the Greeting Component in App.tsx
 Open your App.tsx file and import the `Greeting` component.
 
 Use the `Greeting` component inside the `return` statement of the `App` component so that Hello World! message is displayed on the webpage.
 
-### 3. Use props
+### 2. Use props
 
 Pass Props to the `Greeting` Component and update the `Greeting` component to accept a prop called `name` (string).
 
